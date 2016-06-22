@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="1428073018_Database_copy_Amazon_RDS_Instance_Read_Replica-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073018_Database_copy_Amazon_RDS_Instance_Read_Replica-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073177_Compute__Networking_copy_Amazon_EMR_Cluster-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073177_Compute__Networking_copy_Amazon_EMR_Cluster-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073177_Non-Service_Specific_copy_Forums-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073177_Non-Service_Specific_copy_Forums-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073288_Compute__Networking_copy_Amazon_EC2_DB_on_Instance-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073288_Compute__Networking_copy_Amazon_EC2_DB_on_Instance-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073288_Non-Service_Specific_copy_Users-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073288_Non-Service_Specific_copy_Users-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073289_Database_copy_Amazon_RDS_MS_SQL_Instance-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073289_Database_copy_Amazon_RDS_MS_SQL_Instance-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073289_Deployment__Management_copy_AWS_Data_Pipeline-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073289_Deployment__Management_copy_AWS_Data_Pipeline-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073290_App_Services_copy_Amazon_Email-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073290_App_Services_copy_Amazon_Email-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073290_Database_copy_DynamoDB_Table-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073290_Database_copy_DynamoDB_Table-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073291_Compute__Networking_copy_Amazon_EMR_HDFS_Cluster-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073291_Compute__Networking_copy_Amazon_EMR_HDFS_Cluster-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073291_Database_copy_Amazon_RDS_MySQL_DB_Instance-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073291_Database_copy_Amazon_RDS_MySQL_DB_Instance-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073291_Database_copy_Amazon_RDS_Oracle_DB_Instance-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073291_Database_copy_Amazon_RDS_Oracle_DB_Instance-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073291_Database_copy_DynamoDB_Items-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073291_Database_copy_DynamoDB_Items-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073291_Non-Service_Specific_copy_Traditional_Server-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073291_Non-Service_Specific_copy_Traditional_Server-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073291_SDKs_copy_AWS_Toolkit_for_Visual_Studio-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073291_SDKs_copy_AWS_Toolkit_for_Visual_Studio-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073292_Database_copy_DynamoDB-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073292_Database_copy_DynamoDB-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073292_On-Demand_Workforce_copy_Amazon_Mechanical_Turk_Workers-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073292_On-Demand_Workforce_copy_Amazon_Mechanical_Turk_Workers-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073292_SDKs_copy_Android-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073292_SDKs_copy_Android-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073292_SDKs_copy_Tools_for_Windows_PowerShell-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073292_SDKs_copy_Tools_for_Windows_PowerShell-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073293_Compute__Networking_copy_Amazon_EC2---256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073293_Compute__Networking_copy_Amazon_EC2---256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073293_Compute__Networking_copy_Amazon_VPC_VPN_Gateway-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073293_Compute__Networking_copy_Amazon_VPC_VPN_Gateway-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073293_Compute__Networking_copy_Auto_Scaling-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073293_Compute__Networking_copy_Auto_Scaling-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073293_Compute__Networking_copy_Elastic_Load_Balancing-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073293_Compute__Networking_copy_Elastic_Load_Balancing-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073293_Non-Service_Specific_copy_User-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073293_Non-Service_Specific_copy_User-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073293_On-Demand_Workforce_copy_Amazon_Mechanical_Turk_Requester-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073293_On-Demand_Workforce_copy_Amazon_Mechanical_Turk_Requester-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073293_Storage__Content_Delivery_Amazon_CloudFront-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073293_Storage__Content_Delivery_Amazon_CloudFront-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073294_App_Services_copy_Amazon_Elastic_Transcoder-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073294_App_Services_copy_Amazon_Elastic_Transcoder-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073294_Compute__Networking_copy_Amazon_Route_53_Hosted_Zone-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073294_Compute__Networking_copy_Amazon_Route_53_Hosted_Zone-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073294_Compute__Networking_copy_Amazon_Route_53-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073294_Compute__Networking_copy_Amazon_Route_53-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073294_Compute__Networking_copy_Amazon_VPC_Internet_Gateway-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073294_Compute__Networking_copy_Amazon_VPC_Internet_Gateway-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073294_Deployment__Management_copy_AWS_CloudFormation_Template-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073294_Deployment__Management_copy_AWS_CloudFormation_Template-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073294_SDKs_copy_PHP-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073294_SDKs_copy_PHP-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073294_Storage__Content_Delivery_Amazon_Glacier-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073294_Storage__Content_Delivery_Amazon_Glacier-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073295_App_Services_copy_Amazon_SWF-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073295_App_Services_copy_Amazon_SWF-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073295_Deployment__Management_copy_IAM-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073295_Deployment__Management_copy_IAM-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073295_Deployment__Management_copy_OpsWorks-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073295_Deployment__Management_copy_OpsWorks-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073295_Non-Service_Specific_copy_Mobile_Client-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073295_Non-Service_Specific_copy_Mobile_Client-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073295_SDKs_copy_AWS_Toolkit_for_Eclipse-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073295_SDKs_copy_AWS_Toolkit_for_Eclipse-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073295_SDKs_copy_Java-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073295_SDKs_copy_Java-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073296_App_Services_copy_Amazon_CloudSearch-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073296_App_Services_copy_Amazon_CloudSearch-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073296_App_Services_copy_Amazon_SQS-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073296_App_Services_copy_Amazon_SQS-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073296_Compute__Networking_copy_Amazon_EC2_Instances-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073296_Compute__Networking_copy_Amazon_EC2_Instances-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073296_Compute__Networking_copy_Amazon_EMR_Cluster-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073296_Compute__Networking_copy_Amazon_EMR_Cluster-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073296_Compute__Networking_copy_Amazon_EMR---256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073296_Compute__Networking_copy_Amazon_EMR---256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073296_Database_copy_Amazon_ElasticCache-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073296_Database_copy_Amazon_ElasticCache-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073296_Database_copy_DynamoDB_Item-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073296_Database_copy_DynamoDB_Item-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073297_Compute__Networking_copy_Amazon_VPC_Router-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073297_Compute__Networking_copy_Amazon_VPC_Router-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073297_Compute__Networking_copy_Amazon_VPC_VPN_Connection-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073297_Compute__Networking_copy_Amazon_VPC_VPN_Connection-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073297_Compute__Networking_copy_AWS_Direct_Connect-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073297_Compute__Networking_copy_AWS_Direct_Connect-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073297_Database_copy_DynamoDB_Attribute-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073297_Database_copy_DynamoDB_Attribute-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073297_Non-Service_Specific_copy_Forums-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073297_Non-Service_Specific_copy_Forums-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073297_Storage__Content_Delivery_AWS_Storage_Gateway-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073297_Storage__Content_Delivery_AWS_Storage_Gateway-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073298_App_Services_copy_Amazon_SNS_Email_Notification-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073298_App_Services_copy_Amazon_SNS_Email_Notification-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073298_Compute__Networking_copy_Amazon_EC2_AMI-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073298_Compute__Networking_copy_Amazon_EC2_AMI-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073298_Database_copy_Amazon_SimpleDB_Domain-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073298_Database_copy_Amazon_SimpleDB_Domain-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073298_Deployment__Management_copy_CloudWatch-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073298_Deployment__Management_copy_CloudWatch-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073298_Deployment__Management_copy_Elastic_Beanstalk_Deployment-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073298_Deployment__Management_copy_Elastic_Beanstalk_Deployment-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073298_Non-Service_Specific_copy_Corporate_Data_Center-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073298_Non-Service_Specific_copy_Corporate_Data_Center-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073298_Non-Service_Specific_copy_Internet-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073298_Non-Service_Specific_copy_Internet-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073298_On-Demand_Workforce_copy_Amazon_Mechanical_Turk_Human_Intelligence_Tasks-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073298_On-Demand_Workforce_copy_Amazon_Mechanical_Turk_Human_Intelligence_Tasks-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073298_Storage__Content_Delivery_Amazon_S3_Bucket-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073298_Storage__Content_Delivery_Amazon_S3_Bucket-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073299_Compute__Networking_copy_Amazon_VPC-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073299_Compute__Networking_copy_Amazon_VPC-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073299_Database_copy_Amazon_ElasticCache_Node-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073299_Database_copy_Amazon_ElasticCache_Node-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073299_Deployment__Management_copy_AWS_CloudFormation-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073299_Deployment__Management_copy_AWS_CloudFormation-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073299_Deployment__Management_copy_CloudWatch_Alarm-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073299_Deployment__Management_copy_CloudWatch_Alarm-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073299_Non-Service_Specific_copy__AWS_Cloud-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073299_Non-Service_Specific_copy__AWS_Cloud-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073299_Non-Service_Specific_copy_AWS_Management_Console-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073299_Non-Service_Specific_copy_AWS_Management_Console-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073299_Non-Service_Specific_copy_Tape_Storage-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073299_Non-Service_Specific_copy_Tape_Storage-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073299_Storage__Content_Delivery_Amazon_CloudFront_Download_Distribution-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073299_Storage__Content_Delivery_Amazon_CloudFront_Download_Distribution-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073300_App_Services_copy_Amazon_SNS_Topic-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073300_App_Services_copy_Amazon_SNS_Topic-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073300_Compute__Networking_copy_Amazon_EC2_Elastic_IP-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073300_Compute__Networking_copy_Amazon_EC2_Elastic_IP-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073300_Compute__Networking_copy_Elastic_Network_Instance-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073300_Compute__Networking_copy_Elastic_Network_Instance-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073300_Database_copy_Amazon_RedShift-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073300_Database_copy_Amazon_RedShift-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073300_Database_copy_Amazon_SimpleDB-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073300_Database_copy_Amazon_SimpleDB-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073300_Non-Service_Specific_copy_Virtual_Private_CLoud_-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073300_Non-Service_Specific_copy_Virtual_Private_CLoud_-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073300_On-Demand_Workforce_copy_Amazon_Mechanical_Turk_assignment_task-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073300_On-Demand_Workforce_copy_Amazon_Mechanical_Turk_assignment_task-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073300_SDKs_copy_nodeJS-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073300_SDKs_copy_nodeJS-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073301_App_Services_copy_Amazon_CloudSearch_SDF_metadata-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073301_App_Services_copy_Amazon_CloudSearch_SDF_metadata-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073301_App_Services_copy_Amazon_SQS_Message-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073301_App_Services_copy_Amazon_SQS_Message-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073301_Deployment__Management_copy_IAM_Add-on-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073301_Deployment__Management_copy_IAM_Add-on-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073301_Non-Service_Specific_copy_Generic_Database-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073301_Non-Service_Specific_copy_Generic_Database-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073301_SDKs_copy_Ruby-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073301_SDKs_copy_Ruby-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073301_Storage__Content_Delivery_Amazon_S3_Bucket_with_Objects-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073301_Storage__Content_Delivery_Amazon_S3_Bucket_with_Objects-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073301_Storage__Content_Delivery_AWS_Import_Export-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073301_Storage__Content_Delivery_AWS_Import_Export-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073302_App_Services_copy_Amazon_SNS_HTTP_Notification-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073302_App_Services_copy_Amazon_SNS_HTTP_Notification-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073302_Compute__Networking_copy_Amazon_Route_53_Route_Table-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073302_Compute__Networking_copy_Amazon_Route_53_Route_Table-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073302_Non-Service_Specific_copy_Client-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073302_Non-Service_Specific_copy_Client-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073302_Non-Service_Specific_copy_Multimedia-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073302_Non-Service_Specific_copy_Multimedia-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073303_Storage__Content_Delivery_Amazon_Glacier_Vault-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073303_Storage__Content_Delivery_Amazon_Glacier_Vault-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073305_App_Services_copy_Amazon_SWF_Decider-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073305_App_Services_copy_Amazon_SWF_Decider-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073305_App_Services_copy_Amazon_SWF_Worker-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073305_App_Services_copy_Amazon_SWF_Worker-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073305_Database_copy_DynamoDB_Attributes-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073305_Database_copy_DynamoDB_Attributes-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073305_Deployment__Management_copy_IAM_STS-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073305_Deployment__Management_copy_IAM_STS-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073305_SDKs_copy_Net-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073305_SDKs_copy_Net-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073305_Storage__Content_Delivery_Amazon_S3-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073305_Storage__Content_Delivery_Amazon_S3-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073306_App_Services_copy_Amazon_SES-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073306_App_Services_copy_Amazon_SES-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073306_Compute__Networking_copy_Amazon_EC2_Instance-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073306_Compute__Networking_copy_Amazon_EC2_Instance-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073306_Database_copy_Amazon_RDS-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073306_Database_copy_Amazon_RDS-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073306_SDKs_copy_CLI-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073306_SDKs_copy_CLI-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073306_SDKs_copy_iOS-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073306_SDKs_copy_iOS-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073306_SDKs_copy_Python-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073306_SDKs_copy_Python-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073307_App_Services_copy_Amazon_SNS-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073307_App_Services_copy_Amazon_SNS-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073307_Compute__Networking_copy_Amazon_VPC_Customer_Gateway-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073307_Compute__Networking_copy_Amazon_VPC_Customer_Gateway-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073307_Deployment__Management_copy_Elastic_Beanstalk_Application-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073307_Deployment__Management_copy_Elastic_Beanstalk_Application-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073307_On-Demand_Workforce_copy_Amazon_Mechanical_Turk-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073307_On-Demand_Workforce_copy_Amazon_Mechanical_Turk-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073307_Storage__Content_Delivery_Amazon_CloudFront_Streaming_Distribution-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073307_Storage__Content_Delivery_Amazon_CloudFront_Streaming_Distribution-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073308_App_Services_copy_Amazon_SQS_Queue-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073308_App_Services_copy_Amazon_SQS_Queue-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073308_Database_copy_Amazon_RDS_DB_Instance-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073308_Database_copy_Amazon_RDS_DB_Instance-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073308_Deployment__Management_copy_AWS_CloudFormation_Stack-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073308_Deployment__Management_copy_AWS_CloudFormation_Stack-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073308_Deployment__Management_copy_Elastic_Beanstalk-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073308_Deployment__Management_copy_Elastic_Beanstalk-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073308_Non-Service_Specific_copy_Disk-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073308_Non-Service_Specific_copy_Disk-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073308_Storage__Content_Delivery_Amazon_EBS_Volume-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073308_Storage__Content_Delivery_Amazon_EBS_Volume-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073308_Storage__Content_Delivery_Amazon_EBS-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073308_Storage__Content_Delivery_Amazon_EBS-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073308_Storage__Content_Delivery_Amazon_S3_Objects-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073308_Storage__Content_Delivery_Amazon_S3_Objects-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073309_Compute__Networking_copy_Amazon_EC2_CloudWatch-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073309_Compute__Networking_copy_Amazon_EC2_CloudWatch-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073309_Database_copy_Amazon_RDS_Instance_Read_Replica-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073309_Database_copy_Amazon_RDS_Instance_Read_Replica-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073309_Database_copy_Amazon_RDS_Instance_Standby-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073309_Database_copy_Amazon_RDS_Instance_Standby-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073309_Storage__Content_Delivery_Amazon_CloudFront_Edge_Location-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073309_Storage__Content_Delivery_Amazon_CloudFront_Edge_Location-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073309_Storage__Content_Delivery_Amazon_EBS_Snapshot-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073309_Storage__Content_Delivery_Amazon_EBS_Snapshot-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1428073309_Storage__Content_Delivery_Amazon_Glacier_Archive-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1428073309_Storage__Content_Delivery_Amazon_Glacier_Archive-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
